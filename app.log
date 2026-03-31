@@ -1,0 +1,23 @@
+2026-03-31T19:45:56.807+05:30  INFO 17676 --- [WhatsAppBot] [main] c.e.WhatsAppBot.WhatsAppBotApplication   : Starting WhatsAppBotApplication using Java 17.0.12 with PID 17676 (C:\Users\Admin\Desktop\programming_file\WhatsAppBot\WhatsAppBot\target\classes started by Admin in C:\Users\Admin\Desktop\programming_file\WhatsAppBot\WhatsAppBot)
+2026-03-31T19:45:56.822+05:30  INFO 17676 --- [WhatsAppBot] [main] c.e.WhatsAppBot.WhatsAppBotApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-31T19:45:59.109+05:30  INFO 17676 --- [WhatsAppBot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-31T19:45:59.201+05:30  INFO 17676 --- [WhatsAppBot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-31T19:45:59.204+05:30  INFO 17676 --- [WhatsAppBot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-03-31T19:45:59.332+05:30  INFO 17676 --- [WhatsAppBot] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2384 ms
+2026-03-31T19:46:00.906+05:30  INFO 17676 --- [WhatsAppBot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-31T19:46:00.938+05:30  INFO 17676 --- [WhatsAppBot] [main] c.e.WhatsAppBot.WhatsAppBotApplication   : Started WhatsAppBotApplication in 5.277 seconds (process running for 5.996)
+2026-03-31T19:46:13.778+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-31T19:46:13.779+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-31T19:46:13.782+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-31T19:46:13.938+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-1] c.example.WhatsAppBot.WebhookController  : Incoming message: Hi
+2026-03-31T19:46:13.942+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-1] c.example.WhatsAppBot.WebhookController  : Bot response: Hello
+2026-03-31T19:47:53.947+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-5] c.example.WhatsAppBot.WebhookController  : Incoming message: Bye
+2026-03-31T19:47:53.948+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-5] c.example.WhatsAppBot.WebhookController  : Bot response: Goodbye
+2026-03-31T19:49:12.814+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-8] c.example.WhatsAppBot.WebhookController  : Incoming message: How are you
+2026-03-31T19:49:12.819+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-8] c.example.WhatsAppBot.WebhookController  : Bot response: I'm just a bot, but I'm doing great!
+2026-03-31T19:50:47.733+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-2] c.example.WhatsAppBot.WebhookController  : Incoming message: Help
+2026-03-31T19:50:47.734+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-2] c.example.WhatsAppBot.WebhookController  : Bot response: You can say Hi or Bye!
+2026-03-31T19:51:32.815+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-1] c.example.WhatsAppBot.WebhookController  : Incoming message: Anything Else?
+2026-03-31T19:51:32.816+05:30  INFO 17676 --- [WhatsAppBot] [http-nio-8080-exec-1] c.example.WhatsAppBot.WebhookController  : Bot response: I don't understand
+2026-03-31T19:56:28.412+05:30  INFO 17676 --- [WhatsAppBot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-31T19:56:28.587+05:30  INFO 17676 --- [WhatsAppBot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
