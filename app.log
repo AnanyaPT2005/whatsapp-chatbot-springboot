@@ -11,3 +11,22 @@
 2026-04-02T20:53:20.692+05:30  INFO 10208 --- [WhatsAppBot] [main] c.e.WhatsAppBot.WhatsAppBotApplication   : Started WhatsAppBotApplication in 4.172 seconds (process running for 5.005)
 2026-04-02T21:16:48.266+05:30  INFO 10208 --- [WhatsAppBot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
 2026-04-02T21:16:49.315+05:30  INFO 10208 --- [WhatsAppBot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-02T21:22:42.514+05:30  INFO 15068 --- [WhatsAppBot] [main] c.e.WhatsAppBot.WhatsAppBotApplication   : Starting WhatsAppBotApplication using Java 17.0.12 with PID 15068 (C:\Users\Admin\Desktop\programming_file\WhatsAppBot\WhatsAppBot\target\classes started by Admin in C:\Users\Admin\Desktop\programming_file\WhatsAppBot\WhatsAppBot)
+2026-04-02T21:22:42.538+05:30  INFO 15068 --- [WhatsAppBot] [main] c.e.WhatsAppBot.WhatsAppBotApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T21:22:46.051+05:30  INFO 15068 --- [WhatsAppBot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-02T21:22:46.158+05:30  INFO 15068 --- [WhatsAppBot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T21:22:46.162+05:30  INFO 15068 --- [WhatsAppBot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-02T21:22:46.450+05:30  INFO 15068 --- [WhatsAppBot] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3618 ms
+2026-04-02T21:22:48.045+05:30  INFO 15068 --- [WhatsAppBot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-04-02T21:22:48.087+05:30  INFO 15068 --- [WhatsAppBot] [main] c.e.WhatsAppBot.WhatsAppBotApplication   : Started WhatsAppBotApplication in 8.554 seconds (process running for 10.319)
+2026-04-02T21:26:21.834+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-02T21:26:21.936+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-02T21:26:22.052+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2026-04-02T21:26:22.881+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-1] c.example.WhatsAppBot.WebhookController  : Incoming message: Anything Else?
+2026-04-02T21:26:22.938+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-1] c.example.WhatsAppBot.WebhookController  : Bot response: I don't understand
+2026-04-02T21:26:36.145+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-3] c.example.WhatsAppBot.WebhookController  : Incoming message: Hi
+2026-04-02T21:26:36.218+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-3] c.example.WhatsAppBot.WebhookController  : Bot response: Hello
+2026-04-02T21:26:44.760+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-4] c.example.WhatsAppBot.WebhookController  : Incoming message: Bye
+2026-04-02T21:26:44.784+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-4] c.example.WhatsAppBot.WebhookController  : Bot response: Goodbye
+2026-04-02T21:26:53.126+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-5] c.example.WhatsAppBot.WebhookController  : Incoming message:  
+2026-04-02T21:26:53.130+05:30  INFO 15068 --- [WhatsAppBot] [http-nio-8080-exec-5] c.example.WhatsAppBot.WebhookController  : Bot response: I don't understand

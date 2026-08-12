@@ -1,10 +1,7 @@
-
-
 package com.example.WhatsAppBot;
 
 import org.springframework.web.bind.annotation.*;
 import java.util.Map;
-
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +9,6 @@ import org.slf4j.LoggerFactory;
 @RestController
 public class WebhookController {
 
-   
     private static final Logger logger = LoggerFactory.getLogger(WebhookController.class);
 
     @PostMapping("/webhook")
@@ -20,7 +16,6 @@ public class WebhookController {
 
         String message = payload.get("message");
 
-       
         logger.info("Incoming message: {}", message);
 
         if (message == null) {
@@ -44,7 +39,6 @@ public class WebhookController {
             response = "I don't understand";
         }
 
-     
         logger.info("Bot response: {}", response);
 
         return response;
